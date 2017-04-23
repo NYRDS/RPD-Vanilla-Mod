@@ -1,0 +1,73 @@
+{
+	"common": {
+		"armor": {
+			"kind": "ClothArmor",
+			"identified": true
+		},
+		"items": [{
+			"kind": "Ration"
+		}],
+        "str":10,
+        "hp":20
+	},
+	"WARRIOR": {
+		"weapon": {
+			"kind": "ShortSword",
+			"identified": true
+		},
+		"items": [{
+			"kind": "Dart",
+			"identified": true,
+			"quantity": 8
+		}],
+		"quickslot":[{
+			"kind": "Dart"
+		}],
+        "str":11,
+        "knownItems":[{"kind":"PotionOfStrength"}]
+	},
+	"MAGE": {
+		"weapon": {
+			"kind": "Knuckles",
+			"identified": true
+		},
+		"items": [{
+			"kind": "WandOfMagicMissile",
+			"identified": true
+		}],
+		"quickslot":[{
+			"kind": "WandOfMagicMissile"
+		}],
+      "knownItems":[{"kind":"ScrollOfIdentify"}]
+	},
+	"ROGUE": {
+		"weapon": {
+			"kind": "Dagger",
+			"identified": true
+		},
+		"ring1": {
+			"kind": "RingOfShadows",
+			"identified": true,
+			"level": 1
+		},
+		"items": [{
+			"kind": "Dart",
+			"identified": true,
+			"quantity": 8
+		}],
+		"quickslot":[{
+			"kind": "Dart"
+		}],
+      "knownItems":[{"kind":"ScrollOfMagicMapping"}]
+	},
+	"HUNTRESS": {
+		"items": [{
+			"kind": "Boomerang",
+			"identified": true
+		}],
+		"quickslot":[{
+			"kind": "Boomerang"
+		}],
+        "hp":15
+	}
+}
